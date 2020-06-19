@@ -1,0 +1,67 @@
+.div50{
+    width: 50%;
+    float: left;
+}
+form.ccf,.ccf{
+    padding: 40px 20px;
+}
+form.ccf label{
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 8px;
+    display: block;
+}
+
+form.ccf .form-control{
+    padding: 5px 10px;
+    width: 100%;
+}
+form.ccf .form-group{
+    margin-bottom: 30px;
+}
+form.ccf select{
+    height: auto!important;
+}
+form.ccf .btn{
+    margin-top: 20px;
+}
+.ccf table th label{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.ccf table td label{
+    text-transform: capitalize;
+}
+.delete_icon:before{
+    background: 0 0;
+    color: #b4b9be;
+    content: "\f153";
+    display: block;
+    font: 400 16px/20px dashicons;
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+.delete_icon{
+    display: inline-block;
+}
+.delete_icon:hover:before {
+    color: #0085BA;
+}
+.ccf_title{
+    padding: 10px 20px!important;
+    font-size: 24px!important;
+    font-weight: bold!important;
+    border-bottom: 1px solid #d3d3d3;
+    text-transform: capitalize;
+}
+.option_field_hidden{
+    display: none;
+}
+#ccf_name_error{
+    color: red;
+}

@@ -1,0 +1,91 @@
+.div50{
+    width: 50%;
+    float: left;
+}
+form.ccf,.ccf{
+    padding: 40px 20px;
+}
+form.ccf label{
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 8px;
+    display: block;
+}
+
+form.ccf .form-control{
+    padding: 5px 10px;
+    width: 100%;
+}
+form.ccf .form-group{
+    margin-bottom: 30px;
+}
+form.ccf select{
+    height: auto!important;
+}
+form.ccf .btn{
+    margin-top: 20px;
+}
+.ccf table th label{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.ccf table td label{
+    text-transform: capitalize;
+}
+.delete_icon:before{
+    background: 0 0;
+    color: #b4b9be;
+    content: "\f153";
+    display: block;
+    font: 400 16px/20px dashicons;
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+.delete_icon{
+    display: inline-block;
+}
+.delete_icon:hover:before {
+    color: #0085BA;
+}
+.ccf_title{
+    padding: 10px 20px!important;
+    font-size: 24px!important;
+    font-weight: bold!important;
+    border-bottom: 1px solid #d3d3d3;
+    text-transform: capitalize;
+}
+.option_field_hidden{
+    display: none;
+}
+#ccf_name_error{
+    color: red;
+}
+
+#plugin-title{
+    background-image: url('../../assets/banner-772x250.png');
+    position: relative;
+    margin: 0;
+}
+
+#plugin-title.with-banner h2 {
+    font-size: 30px;
+    max-width: 682px;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    padding: 8px 15px;
+    margin-bottom: 4px;
+    color: #fff;
+    background: rgba( 30, 30, 30, 0.9 );
+    text-shadow: 0 1px 3px rgba( 0, 0, 0, 0.4 );
+    -webkit-box-shadow: 0 0 30px rgba( 255, 255, 255, 0.1 );
+    -moz-box-shadow: 0 0 30px rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 0 30px rgba( 255, 255, 255, 0.1 );
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
